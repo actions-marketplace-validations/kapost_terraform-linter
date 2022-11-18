@@ -1,0 +1,8 @@
+name: kapost-terraform-linter
+description: "This action runs a terraform linter via terraform fmt - it does not make changes to the file(s)."
+branding:
+  icon: 'book-open'
+  color: 'green'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
